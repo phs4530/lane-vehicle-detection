@@ -13,7 +13,7 @@ using namespace std;
 
 int main( int argc, char** argv )
 {	
-	String imageName("C:/image/sample_image.jpg"); // by default
+	String imageName("C:/image/sample_image3.jpg"); // by default
 	if (argc > 1)
 	{
 		imageName = argv[1];
@@ -72,7 +72,7 @@ int main( int argc, char** argv )
 		angle = abs(angle);
 		angle *= 45;
 
-		if (angle < 60)
+		if (angle < 50)
 		{
 			lines[i] = NULL;
 		}
