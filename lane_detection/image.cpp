@@ -31,9 +31,6 @@ int main( int argc, char** argv )
 
 	HoughLinesP(GRAY_edges, lines, 1, CV_PI / 180, 30, 100, 10);
 
-
-	//////////
-	/*
 	for (int i = 0 ; i < lines.size(); i++)
 	{
 		Vec4i Line = lines[i];
@@ -51,7 +48,7 @@ int main( int argc, char** argv )
 		// draw line on image
 		line(COLOR_image, Point(L_Line[0] + Horizontal * 0.13, L_Line[1] + vertical * 0.2), Point(L_Line[2] + Horizontal * 0.13, L_Line[3] + vertical * 0.2), Scalar(0, 0, 255), 2);
 		line(COLOR_image, Point(R_Line[0] + Horizontal * 0.13, R_Line[1] + vertical * 0.2), Point(R_Line[2] + Horizontal * 0.13, R_Line[3] + vertical * 0.2), Scalar(0, 255, 0), 2);
-	}*/
+	}
 
 	imshow("COLOR_image line", COLOR_image);
 	imshow("GRAY_edges", GRAY_edges);
