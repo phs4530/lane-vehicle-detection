@@ -4,7 +4,8 @@
  - window 10
  - C++
  - visual studio Community 2017
- - opencv 3.4.1
+ - opencv 3.4.1 - [set_up](http://webnautes.tistory.com/1132)
+
 
 sample_video
  - https://drive.google.com/open?id=1BAE5CIloSvKowFvdG_Hg30P0Y8HjE1pg
